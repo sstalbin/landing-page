@@ -164,6 +164,40 @@ button {
     margin: 10px 0;
 }
 
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 150px;
+    width: 850px;
+    background-color:#3882F6;
+    color: white;
+    margin: 75px 0;
+    gap: 75px;
+}
+
+.main-CTA {
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+.tiny-text {
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.custom {
+    border-style: groove;
+    border-color: white;
+}
+
 .footer {
     display: flex;
     justify-content: center;
